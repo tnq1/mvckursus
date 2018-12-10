@@ -1,0 +1,26 @@
+﻿
+@model ModelDemo.Models.Person
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        Demo test ModelDemo
+    </div>
+    <p> Navn = @Model.Navn</p>
+    <hr/>
+    @Html.DisplayForModel()
+    <hr />
+    @Html.EditorForModel()
+
+    @Html.Editor("Navn")
+</body>
+</html>

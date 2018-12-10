@@ -18,6 +18,7 @@ namespace Start.Controllers
         {
             string navn = "ladsækljdsjk";
             return Json(navn, JsonRequestBehavior.AllowGet);
+
         }
     }
 }
